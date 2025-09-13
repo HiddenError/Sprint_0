@@ -30,7 +30,10 @@ namespace Sprint_0
 
         protected override void Initialize()
         {
-            spritePosition = new Vector2(400, 240); // default starting position
+            Viewport viewport = _graphics.GraphicsDevice.Viewport;
+
+
+            spritePosition = new Vector2(viewport.Width / 2, (viewport.Height / 2)); // default starting position
             base.Initialize();
         }
 
