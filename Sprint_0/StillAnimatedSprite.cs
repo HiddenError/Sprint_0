@@ -9,7 +9,6 @@ namespace Sprint_0
     {
         private Texture2D texture;
         private Rectangle[] frames;
-        private Vector2 position;
         private int currentFrame;
         private double timePerFrame;
         private double timer;
